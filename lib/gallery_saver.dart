@@ -25,7 +25,7 @@ class GallerySaver {
     }
 //     if (!isVideo(path)) {
 //       throw ArgumentError(fileIsNotVideo);
-    }
+//     }
     if (!isLocalFilePath(path)) {
       tempFile = await _downloadFile(path);
       path = tempFile.path;
